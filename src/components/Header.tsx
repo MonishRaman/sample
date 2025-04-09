@@ -105,7 +105,7 @@ const Header: React.FC = () => {
           cursor: 'pointer'
         }}>
           <img 
-            src="https://dashboard.codeparrot.ai/api/placeholder/40/40" 
+            src="https://img.freepik.com/free-photo/handsome-satisfied-bearded-man-show-okay-sign_176420-17944.jpg?semt=ais_hybrid&w=740" 
             alt="User profile" 
             style={{
               width: '100%',
