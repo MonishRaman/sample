@@ -129,7 +129,9 @@ const JobCard: React.FC<JobCardProps> = ({
           gap: '4px',
           cursor: 'pointer',
           fontSize: '14px',
-          fontFamily: 'Poppins, sans-serif'
+          fontFamily: 'Poppins, sans-serif',
+          color: '#000000', /* Changed to black text */
+          fontWeight: 500 /* Added to match image */
         }}>
           <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/svg.png" alt="ask" style={{ width: '12px', height: '12px' }} />
           <span>Ask xzayogn</span>

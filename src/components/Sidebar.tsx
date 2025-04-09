@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar: React.FC = () => {
   return (
     <div style={{
-      width: '222px',
+      width: '322px',
       height: '100vh',
       backgroundColor: '#e2f2ff',
       padding: '20px',

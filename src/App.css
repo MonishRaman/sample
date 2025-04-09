@@ -33,7 +33,7 @@ body {
 
 /* Jobs section */
 .jobs-section {
-  flex: 1;
+  flex: 4;
   padding: 0 20px 20px;
   overflow: auto;
   display: flex;
@@ -73,7 +73,8 @@ body {
 
 .job-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 

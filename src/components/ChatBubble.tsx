@@ -17,7 +17,7 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({
       flexDirection: 'column',
       gap: '24px',
       width: '300px',
-      height: '100vh',
+      height: '90vh',
       padding: '20px',
       borderLeft: '1px solid #e2e2e2',
       backgroundColor: '#fff'
