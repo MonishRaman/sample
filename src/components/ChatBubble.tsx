@@ -8,7 +8,7 @@ interface ChatBubbleProps {
 
 const ChatBubble: React.FC<ChatBubbleProps> = ({
   message = "Which job you want to ask xzayogn about?",
-  logo = "/api/placeholder/60/60",
+  // logo = "/api/placeholder/60/60",
   username = "xzayogn."
 }) => {
   return (
