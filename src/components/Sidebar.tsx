@@ -57,13 +57,14 @@ const Sidebar: React.FC = () => {
         }}>
           <span style={{
             fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500,
-            fontSize: '14px',
+            fontWeight: 'bold',
+            fontSize: '16px',
             color: '#1a1a1a'
+            
           }}>Upcoming</span>
           <div style={{ marginLeft: 'auto', display: 'flex', gap: '6px' }}>
             <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/bi-stars.png" alt="stars" style={{width: '16px', height: '16px'}} />
-            <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/frame-25.png" alt="frame" style={{width: '16px', height: '16px'}} />
+            <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/frame-25.png" alt="frame" style={{width: '35px', height: '28px'}} />
           </div>
         </div>
 
@@ -79,11 +80,11 @@ const Sidebar: React.FC = () => {
         }}>
           <span style={{
             fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500,
-            fontSize: '14px',
+            fontWeight: 'bold',
+            fontSize: '16px',
             color: '#1a1a1a'
           }}>New Chat</span>
-          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/add-2.png" alt="add" style={{marginLeft: 'auto', width: '16px', height: '16px'}} />
+          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/add-2.png" alt="add" style={{marginLeft: 'auto', width: '35px', height: '28px'}} />
         </div>
 
         {/* My Jobs */}
@@ -98,11 +99,11 @@ const Sidebar: React.FC = () => {
         }}>
           <span style={{
             fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500,
-            fontSize: '14px',
+            fontWeight: 'bold',
+            fontSize: '16px',
             color: '#fff'
           }}>My Jobs</span>
-          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/briefcas.png" alt="briefcase" style={{marginLeft: 'auto', width: '16px', height: '16px'}} />
+          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/briefcas.png" alt="briefcase" style={{marginLeft: 'auto', width: '28px', height: '28px'}} />
         </div>
 
         {/* Market Place */}
@@ -117,11 +118,11 @@ const Sidebar: React.FC = () => {
         }}>
           <span style={{
             fontFamily: 'Poppins, sans-serif',
-            fontWeight: 500,
-            fontSize: '14px',
+            fontWeight: 'bold',
+            fontSize: '16px',
             color: '#1a1a1a'
           }}>Market Place</span>
-          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/bag-hand.png" alt="bag" style={{marginLeft: 'auto', width: '16px', height: '16px'}} />
+          <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/bag-hand.png" alt="bag" style={{marginLeft: 'auto', width: '28px', height: '28px'}} />
         </div>
       </div>
 
