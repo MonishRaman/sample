@@ -72,15 +72,15 @@ const JobCard: React.FC<JobCardProps> = ({
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/mdi-ligh.png" alt="location" style={{ width: '16px', height: '16px' }} />
-          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', color: '#1A1A1A' }}>{location}</span>
+          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', color: '#1A1A1A' }}>{location}</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/mdi-ligh-2.png" alt="salary" style={{ width: '16px', height: '16px' }} />
-          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', color: '#1A1A1A' }}>{salary}</span>
+          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', color: '#1A1A1A' }}>{salary}</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/mdi-ligh-3.png" alt="duration" style={{ width: '16px', height: '16px' }} />
-          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', color: '#1A1A1A' }}>{duration}</span>
+          <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '18px', color: '#1A1A1A' }}>{duration}</span>
         </div>
       </div>
 
@@ -108,13 +108,13 @@ const JobCard: React.FC<JobCardProps> = ({
             fontWeight: 600
           }}>{matchPercentage}%</div>
         </div>
-        <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', color: '#1A1A1A' }}>Good Match</span>
+        <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', color: '#1A1A1A' }}>Good Match</span>
       </div>
 
       {/* Posted Time */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '4px', marginLeft: 'auto' }}>
         <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/group.png" alt="time" style={{ width: '12px', height: '12px' }} />
-        <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '12px', color: '#696969' }}>{postedTime}</span>
+        <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '14px', color: '#696969' }}>{postedTime}</span>
       </div>
 
       {/* Buttons */}
