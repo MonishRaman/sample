@@ -3,31 +3,57 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import ChatBubble from './components/ChatBubble';
 import JobCard from './components/JobCard';
+import './App.css';
 
-const Layout: React.FC = () => {
+const App: React.FC = () => {
+  // Sample data for job cards - in a real app this would come from an API
+  const jobData = Array(9).fill({
+    title: "Senior Full Stack Engineer (Frontend leaning) - Platform",
+    company: "Foretop",
+    location: "Mumbai, India",
+    salary: "15,000/month",
+    duration: "2 Months",
+    matchPercentage: 49,
+    postedTime: "1hr ago"
+  });
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', width: '100%', height: '100vh' }}>
+    <div className="app-container">
       {/* Sidebar */}
-      <div style={{ flexGrow: 0, width: '334px', height: '100vh' }}>
-        <Sidebar />
-      </div>
+      <Sidebar />
 
       {/* Main Content */}
-      <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
+      <div className="main-content">
         {/* Header */}
-        <div style={{ flexGrow: 0, height: 'auto' }}>
-          <Header />
-        </div>
+        <Header />
 
-        {/* Job Cards */}
-        <div style={{ flexGrow: 1, display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', padding: '20px', overflowY: 'auto' }}>
-          {[...Array(6)].map((_, index) => (
-            <JobCard key={index} />
-          ))}
-        </div>
+        {/* Content area with job listings and chat */}
+        <div className="content-wrapper">
+          {/* Job filters and cards */}
+          <div className="jobs-section">
+            {/* Filter options */}
+            <div className="filter-container">
+              <div className="filter-pill">Intern/New Grad</div>
+              <div className="filter-pill">Within US</div>
+              <div className="filter-pill">Full-time</div>
+              <div className="filter-pill">Onsite</div>
+              <div className="filter-pill">Remote</div>
+              <div className="filter-pill">Hybrid</div>
+              <div className="filter-pill filter-button">
+                <img src="https://dashboard.codeparrot.ai/api/image/Z_XLIIDi91IKZZwC/filter.png" alt="filter" className="filter-icon" />
+                Filters
+              </div>
+            </div>
 
-        {/* Chat Bubble */}
-        <div style={{ flexGrow: 0, height: 'auto', padding: '20px', backgroundColor: '#f5f5f5', borderTop: '1px solid #e0e0e0' }}>
+            {/* Job cards grid */}
+            <div className="job-cards-grid">
+              {jobData.map((job, index) => (
+                <JobCard key={index} {...job} />
+              ))}
+            </div>
+          </div>
+
+          {/* Chat section */}
           <ChatBubble />
         </div>
       </div>
@@ -35,5 +61,4 @@ const Layout: React.FC = () => {
   );
 };
 
-export default Layout;
-
+export default App;
