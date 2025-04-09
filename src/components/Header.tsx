@@ -52,7 +52,8 @@ const Header: React.FC = () => {
           borderRadius: '20px',
           border: 'none',
           color: '#1a1a1a',
-          fontSize: '14px',
+          fontSize: '16px',
+          fontWeight:'bold',
           fontFamily: 'Poppins, sans-serif',
           cursor: 'pointer'
         }}>Recommended</button>
@@ -63,7 +64,8 @@ const Header: React.FC = () => {
           borderRadius: '20px',
           border: 'none',
           color: '#1a1a1a',
-          fontSize: '14px',
+          fontSize: '16px',
+          fontWeight:'bold',
           fontFamily: 'Poppins, sans-serif',
           cursor: 'pointer'
         }}>Liked</button>
@@ -74,7 +76,8 @@ const Header: React.FC = () => {
           borderRadius: '20px',
           border: 'none',
           color: '#1a1a1a',
-          fontSize: '14px',
+          fontSize: '16px',
+          fontWeight:'bold',
           fontFamily: 'Poppins, sans-serif',
           cursor: 'pointer'
         }}>Applied</button>

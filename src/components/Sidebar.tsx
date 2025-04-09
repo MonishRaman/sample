@@ -76,7 +76,8 @@ const Sidebar: React.FC = () => {
           backgroundColor: '#fff',
           borderRadius: '10px',
           gap: '10px',
-          cursor: 'pointer'
+          cursor: 'pointer',
+          marginBottom:'38px',
         }}>
           <span style={{
             fontFamily: 'Poppins, sans-serif',
